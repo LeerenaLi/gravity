@@ -1,0 +1,24 @@
+.problems {
+    padding-top: 137px;
+    &__title {
+        padding-bottom: 30px;
+    }
+    &__text {
+        padding-bottom: 20px;
+        max-width: 446px;
+    }
+    &__author {
+        padding-top: 61px;
+        display: flex;
+    }
+    &__img {
+        width: 65px;
+        height: 65px;
+        img {
+            width: 100%;
+        }
+    }
+    &__subtitle {
+        padding: 4px 0 0 31px;
+    }
+}
