@@ -1,0 +1,56 @@
+.offer {
+    position: relative;
+    &__title {
+        margin-top: 127px;
+    }
+    &__text {
+        margin: 30px 0 56px 0;
+    }
+    &__loader {
+        margin-top: 190px;
+        width: 130px;
+        display: flex;
+        justify-content: space-between;
+        &-active {
+            width: 62px;
+            height: 2px;
+            background: #C6B393;
+        }
+        &-noactive {
+            width: 62px;
+            height: 2px;
+            background: #C6B393;
+            opacity: 0.5;
+        }
+
+    }
+    &__hero {
+        background: url('../../img/img1.jpg') no-repeat right top;
+        width: 665px;
+        height: 840px;
+        position: absolute;
+        right: 0;
+        top: 53px;
+        &-video {
+            background: url('../../img/video.jpg') no-repeat;
+            box-shadow: -25px 35px 130px rgba(0, 0, 0, 0.38);
+            width: 400px;
+            height: 310px;
+            position: absolute;
+            top: 364px;
+            left: -125px;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &::after {
+                content: '';
+                display: block;
+                background: url('../../icons/play.svg');
+                width: 65px;
+                height: 65px;
+                z-index: 8;
+            }
+        }
+    }
+}
