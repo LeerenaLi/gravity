@@ -1,0 +1,59 @@
+.servises {
+    padding-top: 142px;
+    &__title {
+        padding-top: 40px;
+    }
+    &__menu {
+        padding-top: 62px;
+        &-left {
+            margin-left: 37px;
+        }
+        &-item {
+            width: 100%;
+            padding: 10px 0;
+        }
+        &-link {
+            display: block;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 28px;
+            color: #8b8b8b;
+            &:hover {
+                text-decoration: none;
+                color: #4f4a4a;
+            }
+        }
+    }
+}
+
+.owl-carousel {
+    padding-top: 99px;
+}
+
+.owl-carousel .item, .owl-item {
+    width: 825px !important;
+    position: relative;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    margin: 0 25px 0 0;
+}
+
+.owl-carousel__play {
+    display: block;
+    background: url('../../icons/play.svg');
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    
+}
