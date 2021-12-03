@@ -1,0 +1,55 @@
+.features {
+    padding-top: 181px;
+    position: relative;
+    &__collage {
+        background: url('../img/img6.jpg') no-repeat left top;
+        width: 570px;
+        height: 417px;
+        position: absolute;
+        top: 181px;
+        left: 0;
+        &-img {
+            display: block;
+            width: 350px;
+            height: 453px;
+            position: absolute;
+            top: 99px;
+            left: 315px;
+            box-shadow: 90px 80px 140px rgba(0, 0, 0, 0.25);
+        }
+    }
+    &__wrapper {
+        padding-top: 38px;
+        margin-left: 65px;
+    }
+    &__title {
+        padding-bottom: 30px;
+    }
+    &__text {
+        max-width: 475px;
+        margin-bottom: 62px;
+    }
+    &__result {
+        margin-bottom: 30px;
+        width: 270px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        &-icon {
+            width: 54px;
+            height: 54px;
+            border-radius: 100%;
+            background: #E5E5E5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &__subtitle {
+        &-descr {
+            color: #000;
+            margin-left: 30px;
+        }
+    }
+    
+}

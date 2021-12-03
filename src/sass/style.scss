@@ -1,15 +1,4 @@
 @import 'libs/bootstrap-reboot.min';
-
-
-/* @import 'libs/theme.default';
-@import 'libs/animate';
-@import 'libs/autoheight';
-@import 'libs/core';
-@import 'libs/lazyload';
-@import 'libs/theme';
-@import 'libs/video'; */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');
 @import '../../node_modules/owl.carousel/src/scss/owl.carousel.scss';
 @import '../../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
@@ -109,4 +98,5 @@ ul, li {
 @import 'blocks/offer';
 @import 'blocks/problems';
 @import 'blocks/servises';
+@import 'blocks/features';
 
