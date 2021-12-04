@@ -1,6 +1,27 @@
-// owl-carousel section servises
-
+// owl-carousel section offer
 $(function() {
+    $('.offer-carousel').owlCarousel({
+        loop:false,
+        margin:30,
+        nav:true,
+        dots:false,
+        navText: ['<img src="icons/active.svg">', '<img src="icons/active.svg">'],
+        startPosition:0,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+
+    // owl-carousel section servises
+
     $('.servises-carousel').owlCarousel({
         loop:true,
         margin:30,
