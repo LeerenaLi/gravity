@@ -2,7 +2,7 @@
 
 $(function() {
     $('.servises-carousel').owlCarousel({
-        loop:false,
+        loop:true,
         margin:30,
         nav:true,
         dots:false,
@@ -24,7 +24,7 @@ $(function() {
     // owl-carousel section reviews
 
     $('.reviews-carousel').owlCarousel({
-        loop:false,
+        loop:true,
         margin:30,
         nav:true,
         dots:false,

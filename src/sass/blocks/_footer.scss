@@ -1,0 +1,13 @@
+.footer {
+    padding: 109px 0 107px 0;
+    background: #515151;
+    &__link {
+        display: block;
+        text-align: center;
+        &:hover {
+            path {
+                fill: $main-color;
+            }
+        }
+    }
+}
