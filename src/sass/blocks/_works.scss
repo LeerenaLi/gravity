@@ -1,0 +1,67 @@
+.works {
+    padding-top: 202px;
+    &__heading {
+        color: #616161;
+    }
+    &__title {
+        padding-top: 40px;
+    }
+    &__menu {
+        padding: 70px 0 0 65px;
+        &-link {
+            display: block;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 28px;
+            color: #858585;
+            &:hover {
+                text-decoration: none;
+                color: #4f4a4a;
+            }
+        }
+    }
+    &__wrapper {
+        padding: 108px 0 22px 0;
+        flex-wrap: wrap;
+        &-item {
+            position: relative;
+            margin-bottom: 30px;
+            width: 350px;
+            height: 450px;
+            cursor: pointer;
+            transition: all 0.8s ease;
+            &:hover {
+                box-shadow: -30px 80px 200px rgba(0, 0, 0, 0.25);
+                -moz-transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                -o-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                transform: scale(1.1);
+                &::after {
+                    content: '';
+                    display: block;
+                    background: url('../../icons/play.svg');
+                    width: 65px;
+                    height: 65px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 10;
+                }
+            }
+        }
+    }
+    
+}
+.tabs__content {
+    display: none !important; /* по умолчанию прячем все блоки */
+}
+.tabs__content.active {
+    display: flex !important; /* по умолчанию показываем нужный блок */
+}
+
+.works__menu-item.active .works__menu-link {
+    color: #1434E1;
+}
