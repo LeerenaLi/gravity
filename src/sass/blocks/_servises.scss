@@ -26,33 +26,3 @@
         }
     }
 }
-
-.owl-carousel {
-    padding-top: 99px;
-}
-
-.owl-carousel .item, .owl-item {
-    width: 825px !important;
-    position: relative;
-}
-
-.owl-theme .owl-nav {
-    margin-top: 50px;
-    text-align: left;
-}
-
-.owl-theme .owl-nav [class*=owl-] {
-    margin: 0 25px 0 0;
-}
-
-.owl-carousel__play {
-    display: block;
-    background: url('../../icons/play.svg');
-    width: 65px;
-    height: 65px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;  
-}

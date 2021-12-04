@@ -1,0 +1,17 @@
+.reviews {
+    padding-top: 248px;
+    &__title {
+        padding-top: 73px;
+    }
+    &__subtitle {
+        &-name {
+            padding-top: 121px;
+        }
+        &-descr {
+            padding-top: 13px;
+        }
+    }
+    &__photo {
+        display: block;
+    }
+}
