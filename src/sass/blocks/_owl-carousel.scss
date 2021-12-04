@@ -34,3 +34,29 @@
     position: relative;
 }
 
+.offer-carousel {
+    position: relative;
+}
+
+.offer-carousel .owl-nav {
+    display: flex;
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: 155px;
+    top: 663px;
+}
+
+.offer-carousel.owl-theme .owl-nav [class*=owl-] {
+    margin: 0 5px 0 0;
+    &:hover {
+        background: none;
+        -moz-transform: scale(1) translate(0px, -2px);
+        -webkit-transform: scale(1) translate(0px, -2px);
+        -o-transform: scale(1) translate(0px, -2px);
+        -ms-transform: scale(1) translate(0px, -2px);
+        transform: scale(1) translate(0px, -2px);
+        transition: all 0.7s ease;
+    }
+}
+
+
