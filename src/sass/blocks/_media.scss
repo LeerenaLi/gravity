@@ -1,0 +1,496 @@
+@media (max-width: 1300px) {
+    .offer {
+        &__hero {
+            width: 45%;
+        }
+    }
+    .features {
+        &__collage {
+            &-img {
+                left: 270px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .container {
+        max-width: 960px;
+    }
+    .offer {
+        &__title {
+            font-size: 50px;
+            line-height: 66px;
+            margin-top: 100px;
+        }
+        &__hero {
+            width: 45%;
+            height: 790px;
+            &-video {
+                top: 335px;
+                left: -80px;
+            }
+        }
+        .hero-two {
+            background-size: cover;
+        }
+        .offer-carousel .owl-nav {
+            left: 123px;
+        }
+    }
+    .problems {
+        &__author {
+            padding-top: 20px;
+        }
+    }
+    .features {
+        &__collage {
+            width: inherit;
+            background: url('../img/img6.jpg') no-repeat center top;
+            &-img {
+                left: 200px;
+            }
+        }
+    }
+    .works {
+        &__wrapper {
+            &-item {
+                width: 31%;
+                height: max-content;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .reviews {
+        &__subtitle {
+            &-name {
+                padding-top: 90px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .offer {
+        &__title {
+            font-size: 42px;
+            line-height: 60px;
+        }
+        &__hero {
+            height: 750px;
+            &-video {
+                top: 320px;
+            }
+        }
+    }
+    .offer-carousel .owl-nav {
+        left: 145px;
+    }
+    .problems {
+        padding-top: 40px;
+        &__wrapper {
+            margin-top: -20px;
+        }
+        &__title {
+            padding-bottom: 15px;
+        }
+        &__text {
+            padding-bottom: 10px;
+        }
+        &__author {
+            padding-top: 20px;
+        }
+        &__img {
+            width: 45px;
+            height: 45px;
+        }
+        &__subtitle {
+            padding: 0 0 0 20px;
+            &-name {
+                font-size: 18px;
+                line-height: 24px;
+            }
+            &-descr {
+                font-size: 14px;
+            }
+        }
+    }
+    .servises {
+        padding-top: 120px;
+        &__menu {
+            &-item {
+                padding: 9px 0;
+            }
+            &-link {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        &-carousel {
+            padding-top: 55px;
+        }
+    }
+    .servises-carousel .item, .servises-carousel .owl-item {
+        width: 693px !important;
+    }
+    .features {
+        padding-top: 120px;
+        &__collage {
+            top: 120px;
+            &-img {
+                width: 300px;
+                height: 400px;
+                left: 130px;
+                top: 80px;
+            }
+        }
+        &__title {
+            padding-bottom: 15px;
+        }
+        &__text {
+            margin-bottom: 40px;
+        }
+        &__wrapper {
+            padding-top: 0;
+        }
+        &__result {
+            margin-bottom: 20px;
+            &-icon {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    .works {
+        padding-top: 170px;
+        &__menu {
+            padding: 70px 0 0 20px;
+        }
+        &__wrapper {
+            padding: 70px 0 22px 0;
+        }
+    }
+    .reviews {
+        padding: 120px 0 100px 0;
+        &__title {
+            padding-top: 40px;
+            font-size: 22px;
+            line-height: 30px;
+        }
+        &__subtitle {
+            &-name {
+                padding-top: 56px;
+                font-size: 18px;
+                line-height: 26px;
+
+            }
+            &-descr {
+                padding-top: 6px;
+                font-size: 14px;
+            }
+        }
+    }
+    .clients {
+        padding: 102px 0;
+    }
+    .footer {
+        padding: 90px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .btn {
+        padding: 17px 55px;
+    }
+    .offer {
+        min-height: 1100px;
+        &__title {
+            font-size: 48px;
+            line-height: 66px;
+            margin-top: 80px;
+        }
+        &__hero {
+            top: 500px;
+            width: 65%;
+            height: 500px;
+            &-video {
+                top: 100px;
+                left: -140px;
+            }
+        }
+    }
+    .offer-carousel .owl-nav {
+        top: 1010px;
+        left: 25px;
+    }
+    .problems {
+        padding-top: 20px;
+        &__poster {
+            position: absolute;
+            width: 47%;
+            top: 1420px;
+            height: 360px;
+        }
+        &__wrapper {
+            margin-top: 0;
+        }
+        &__text {
+            &:nth-child(3) {
+                max-width: 250px;
+            }
+        }
+        &__author {
+            padding-top: 90px;
+        }
+    }
+    .servises {
+        .d-flex {
+            flex-direction: column;
+        }
+        &__menu {
+            padding-top: 25px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: stretch;
+            align-content: center;
+            &-item {
+                width: auto;
+            }
+            &-left {
+                margin: 0;
+                padding-top: 40px;
+            }
+            &-link {
+                margin-right: 40px;
+            }
+        }
+        &-carousel {
+            padding-top: 40px;
+        }
+    }
+    .servises-carousel .item, .servises-carousel .owl-item {
+        width: 513px !important;
+    }
+    .features {
+        &__collage {
+            background: url(../img/img6.jpg) no-repeat left top;
+            top: 570px;
+            height: 350px;
+            &-img {
+                height: 200px;
+            }
+        }
+    }
+    .works {
+        padding-top: 450px;
+        &__menu {
+            padding: 60px 10px 0 10px;
+        }
+        &__wrapper {
+            padding: 50px 0 22px 0;
+            &-item {
+                width: 47%;
+            }
+        }
+        &__text {
+            padding-bottom: 30px;
+        }
+    }
+    .reviews {
+        padding: 100px 0 100px 0;
+        &__subtitle {
+            &-name {
+                padding-top: 40px;
+            }
+        }
+    }
+    .reviews .owl-carousel .owl-item img {
+        width: 50%;
+        margin-top: -100px;
+    }
+    .reviews-carousel .owl-nav {
+        margin-top: -50px;
+    }
+    .clients {
+        &__heading {
+            margin-top: 40px;
+        }
+        &__board {
+            flex-wrap: wrap;
+            &-item {
+                text-align: center;
+                &:nth-child(3) {
+                    margin-left: 35px;
+                }
+            }
+            &-img {
+                width: 45%;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    h2 {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .header {
+        &__nav {
+            padding-top: 25px;
+        }
+        &__logo {
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+    }
+    .offer {
+        min-height: 930px;
+        &__title {
+            font-size: 42px;
+            line-height: 56px;
+            margin-top: 60px;
+            text-align: center;
+        }
+        &__text {
+            text-align: center;
+            margin: 30px 0 40px 0;
+        }
+        &__hero {
+            width: 100%;
+            height: 340px;
+            &-video {
+                width: 280px;
+                height: 210px;
+                top: 70px;
+                left: 14px;
+                background-size: cover;
+            }
+        }
+        .video-two {
+            background-size: cover;
+        }
+    }
+    .btn {
+        width: 100%;
+    }
+    .offer-carousel .owl-nav {
+        top: 870px;
+        left: 14px;
+    }
+    .problems {
+        &__poster {
+            display: none;
+        }
+        &__author {
+            padding-top: 30px;
+        }
+        &__text {
+            &:nth-child(3) {
+                max-width: 100%;
+            }
+        }
+    }
+    .servises {
+        padding-top: 80px;
+        &__menu {
+            padding-top: 30px;
+            flex-direction: column;
+            width: 100px;
+            &-link {
+                margin-right: 10px;
+            }
+        }
+    }
+    .servises .d-flex {
+        flex-direction: row;
+    }
+    .servises-carousel .item, .servises-carousel .owl-item {
+        width: 273px !important;
+    }
+    .servises .owl-theme .owl-nav {
+        margin-top: 30px;
+        text-align: left;
+    }
+    .features {
+        padding-top: 80px;
+        &__wrapper {
+            margin-left: 0;
+        }
+        &__collage {
+            width: 100%;
+            &-img {
+                width: 180px;
+                left: 123px;
+            }
+        }
+    }
+    .works {
+        &__menu {
+            flex-direction: column;
+            padding: 35px 10px 0 10px;
+            &-item {
+                padding-bottom: 5px;
+            }
+        }
+        &__wrapper {
+            padding: 35px 0 0 0;
+        }
+    }
+    .reviews .owl-carousel .owl-item img {
+        width: 100%;
+        margin-top: 0;
+    }
+    .reviews {
+        padding: 100px 0 60px 0;
+        &__title {
+            padding-top: 30px;
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+    .reviews-carousel .owl-nav {
+        margin-top: 20px;
+    }
+    .clients {
+        padding: 80px 0 40px 0;
+        &__board {
+            &-item {
+                margin-bottom: 60px;
+            }
+            &-img {
+                width: 65%;
+            }
+        }
+    }
+}
